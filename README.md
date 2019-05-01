@@ -5,6 +5,8 @@ QRCODE
 
 ![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/master/img/qrcode.png?raw=true)
 
+Line ID: @170kbrlz
+
 ### Features
 #### A. Commands
 
