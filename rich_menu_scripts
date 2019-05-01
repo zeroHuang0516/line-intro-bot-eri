@@ -1,0 +1,126 @@
+curl -v -X POST https://api.line.me/v2/bot/richmenu \
+  -H 'Authorization: Bearer bOa6YldERV0fFojkZtHxF9VaH6qY+KkE3K60FksWVNri8ZSNUzvwwoFaUCVH56epO+BEnM3EsaTR06mxM1zbP+K7KxgIKkm4e7DLnHTl6TQvRdiDSm5CUENlnqnDAy237endHe7L4MEeBmuRbs0jbQdB04t89/1O/w1cDnyilFU=' \
+  -H 'Content-Type:application/json' \
+  -d \
+  '{
+    "size":{
+        "width":2500,
+        "height":1686
+    },
+    "selected":true,
+    "name":"Controller",
+    "chatBarText":"Tap here!",
+    "areas":[
+        {
+          "bounds":{
+              "x":0,
+              "y":0,
+              "width":833.33,
+              "height":843
+          },
+          "action":{
+              "type":"message",
+              "text":"/self-intro"
+          }
+        },
+        {
+          "bounds":{
+              "x":833.33,
+              "y":0,
+              "width":833.33,
+              "height":843
+          },
+          "action":{
+              "type":"message",
+              "text":"/education"
+          }
+        },
+        {
+          "bounds":{
+              "x":1666.66,
+              "y":0,
+              "width":833.33,
+              "height":843
+          },
+          "action":{
+              "type":"message",
+              "text":"/graduate_research"
+          }
+        },
+        {
+          "bounds":{
+              "x":0,
+              "y":843,
+              "width":833.33,
+              "height":843
+          },
+          "action":{
+              "type":"message",
+              "text":"/internship"
+          }
+        },
+        {
+          "bounds":{
+              "x":833.33,
+              "y":843,
+              "width":833.33,
+              "height":843
+          },
+          "action":{
+              "type":"message",
+              "text":"/course_project"
+          }
+        },
+        {
+          "bounds":{
+              "x":1666.66,
+              "y":843,
+              "width":833.33,
+              "height":843
+          },
+          "action":{
+              "type":"message",
+              "text":"/skills"
+          }
+        }
+    ]
+  }'
+
+
+
+
+
+
+
+
+
+
+  {"richMenuId":"richmenu-09982e5bc1a6b046c4c4ac0b58001c41"}
+
+
+
+
+
+
+curl -v -X POST https://api.line.me/v2/bot/richmenu/richmenu-09982e5bc1a6b046c4c4ac0b58001c41/content \
+-H "Authorization: Bearer bOa6YldERV0fFojkZtHxF9VaH6qY+KkE3K60FksWVNri8ZSNUzvwwoFaUCVH56epO+BEnM3EsaTR06mxM1zbP+K7KxgIKkm4e7DLnHTl6TQvRdiDSm5CUENlnqnDAy237endHe7L4MEeBmuRbs0jbQdB04t89/1O/w1cDnyilFU=" \
+-H "Content-Type: image/png" \
+-T richmenu.png
+
+
+
+
+
+curl -v -X POST https://api.line.me/v2/bot/user/all/richmenu/richmenu-09982e5bc1a6b046c4c4ac0b58001c41 \
+-H "Authorization: Bearer bOa6YldERV0fFojkZtHxF9VaH6qY+KkE3K60FksWVNri8ZSNUzvwwoFaUCVH56epO+BEnM3EsaTR06mxM1zbP+K7KxgIKkm4e7DLnHTl6TQvRdiDSm5CUENlnqnDAy237endHe7L4MEeBmuRbs0jbQdB04t89/1O/w1cDnyilFU=" -d ""
+
+
+
+
+curl -v -X POST https://api.line.me/v2/bot/user/U2de04e9524ac715b207763d368269944/richmenu/richmenu-09982e5bc1a6b046c4c4ac0b58001c41 \
+-H "Authorization: Bearer bOa6YldERV0fFojkZtHxF9VaH6qY+KkE3K60FksWVNri8ZSNUzvwwoFaUCVH56epO+BEnM3EsaTR06mxM1zbP+K7KxgIKkm4e7DLnHTl6TQvRdiDSm5CUENlnqnDAy237endHe7L4MEeBmuRbs0jbQdB04t89/1O/w1cDnyilFU=" -d ""
+
+
+
+curl -v -X DELETE https://api.line.me/v2/bot/user/U2de04e9524ac715b207763d368269944/richmenu \
+-H 'Authorization: Bearer bOa6YldERV0fFojkZtHxF9VaH6qY+KkE3K60FksWVNri8ZSNUzvwwoFaUCVH56epO+BEnM3EsaTR06mxM1zbP+K7KxgIKkm4e7DLnHTl6TQvRdiDSm5CUENlnqnDAy237endHe7L4MEeBmuRbs0jbQdB04t89/1O/w1cDnyilFU='
