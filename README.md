@@ -3,6 +3,6 @@
 # How to add:
 QRCODE
 
-![image](https://github.com/zeroHuang0516/line-intro-bot-eri/img/qrcode.png)
+![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/img/qrcode.png)
 
 # Features
