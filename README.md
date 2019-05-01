@@ -24,16 +24,16 @@ QRCODE
 
 /help：Guide to use this chatbot
 
-![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/master/img/qrcode.png?raw=true)
+![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/master/img/demo-commands.jpg?raw=true)
 
 #### B. Rich Menu
 
 Directly click the rich menu items to collect information.
 
-![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/master/img/qrcode.png?raw=true)
+![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/master/img/demo-rich-menu.jpg?raw=true)
 
 #### C. Button Template Messages
 
 Directly click the buttons to retrieve information.
 
-![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/master/img/qrcode.png?raw=true)
+![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/master/img/demo-template.jpg?raw=true)
