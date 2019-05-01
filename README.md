@@ -6,7 +6,7 @@ QRCODE
 ![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/master/img/qrcode.png?raw=true)
 
 ### Features
-A. Commands
+#### A. Commands
 
 /self-intro：Basic self-introuduction and career objectives
 
@@ -26,13 +26,13 @@ A. Commands
 
 ![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/master/img/qrcode.png?raw=true)
 
-B. Rich Menu
+#### B. Rich Menu
 
 Directly click the rich menu items to collect information.
 
 ![image](https://github.com/zeroHuang0516/line-intro-bot-eri/blob/master/img/qrcode.png?raw=true)
 
-C. Button Template Messages
+#### C. Button Template Messages
 
 Directly click the buttons to retrieve information.
 
